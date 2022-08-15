@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap er Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="py-20">
+    <header class="text-center py-4">
+        <h1 class="text-5xl">Welcome to my <span class="font-semibold text-indigo-600">Baap er Bank!</span></h1>
+    </header>
+    <main>
+        <section class="container mx-auto py-10 px-8">
+            <div class="bg-indigo-100 p-8 max-w-2xl mx-auto space-y-4 shadow-sm shadow-indigo-200 rounded-lg">
+                <h2 class="text-center font-semibold text-3xl mb-5">Please Login</h2>
+                <input id="user-email"
+                    class="w-full border border-indigo-200 py-3 px-4 rounded outline-none focus:border-indigo-400 transition-colors text-lg"
+                    type="email" placeholder="Enter email address">
+                <input id="user-password"
+                    class="w-full border border-indigo-200 py-3 px-4 rounded outline-none focus:border-indigo-400 transition-colors text-lg"
+                    type="password" placeholder="Enter password">
+                <button id="login-btn"
+                    class="w-full border border-indigo-700 bg-indigo-700 text-white font-semibold py-3 px-4 rounded hover:bg-indigo-800 active:bg-indigo-900 transition-colors text-lg">Log
+                    in</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
